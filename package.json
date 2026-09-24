@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-arcgis-seattle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "City of Seattle GIS — Seattle, Washington open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-arcgis-seattle": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arcgis-seattle"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-arcgis-seattle"
+    "url": "git+https://github.com/pipeworx-io/mcp-arcgis-seattle.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-52e809e74c3a646d023bc1340c9e8ee4ee5ee6d1823f527d9240b509c0d16c6c",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
