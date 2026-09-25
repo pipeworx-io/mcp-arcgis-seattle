@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/arcgis-seattle",
   "title": "Arcgis Seattle",
   "description": "City of Seattle GIS — Seattle, Washington open geospatial data (ArcGIS).",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/arcgis-seattle",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-arcgis-seattle",

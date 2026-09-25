@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arcgis-seattle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "City of Seattle GIS — Seattle, Washington open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-52e809e74c3a646d023bc1340c9e8ee4ee5ee6d1823f527d9240b509c0d16c6c",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-2374b73187f30daaf9dc845a7049f7b37999ac4caee3bc3f915c99c4823d0a40",
+    "sourceCommit": "454041882179fae560c06e770b6b7a2f33970015"
   }
 }
